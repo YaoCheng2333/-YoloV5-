@@ -8,3 +8,8 @@
 2.检测烟雾（smoke)和火域（fire_area）板载led闪动报警。
 
 通信使用串口传输
+k230上：IO43-->单片机Tx：PA23（GPIO_UART_0_TX_PIN）
+k230上：IO42-->单片机Rx：PA22（GPIO_UART_0_RX_PIN）
+
+单片机与k230模块共地！共地！共地！！！
+
